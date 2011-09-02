@@ -1,16 +1,18 @@
 {
-  "name": "Pharaohs Time Tracker",
-  "options_page": "options.html",
+  "name": "Ted's test extension",
   "permissions": [
-    "notifications"
+    "history",
+    "tabs",
+    "notifications",
+    "http://*/*"
   ],
   "version": "1.7",
-  "description": "Tracks how much time you spend on different projects and tasks",
+  "description": "shows the history for the domain you are visiting.",
   "icons": { "128": "images/icon.png" },
   "browser_action": {
     "default_icon": "images/icon.png",
-    "default_title": "Pharaohs Time Tracker",
-    "popup": "popup.html"
+    "default_title": "Ted's Domain History",
+    "default_popup": "popup.html"
   },
   "background_page": "background.html"
 }
